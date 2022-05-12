@@ -1,0 +1,74 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/tabBar/first/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabBar/book/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/tabBar/list/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabBar/mine/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/tabBar/first/index",
+				"iconPath": "static/tabBar/first.png",
+				"selectedIconPath": "static/tabBar/first-s.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabBar/book/index",
+				"iconPath": "static/tabBar/book.png",
+				"selectedIconPath": "static/tabBar/book-s.png",
+				"text": "工作"
+			}, {
+				"pagePath": "pages/tabBar/list/index",
+				"iconPath": "static/tabBar/list.png",
+				"selectedIconPath": "static/tabBar/list-s.png",
+				"text": "列表"
+			}, {
+				"pagePath": "pages/tabBar/mine/index",
+				"iconPath": "static/tabBar/mine.png",
+				"selectedIconPath": "static/tabBar/mine-s.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
